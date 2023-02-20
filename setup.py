@@ -6,7 +6,6 @@ setup(
     packages=find_packages(exclude=["postcards"]),
     install_requires=[
         "django",
-        "geopy",
         "requests",
         "psycopg2-binary"
     ],
